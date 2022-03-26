@@ -7,8 +7,8 @@
 class Platform_HardwareSPI : public SPIClass
 {
 public:
-     void RemovePin(PF_GPIO_T _pin) override;
-     void RemoveAllPin(void) override;
+    void RemovePin(PF_GPIO_T _pin) override;
+    void RemoveAllPin(void) override;
     void begin(PF_GPIO_T CSpin) override;
     void end(void) override;
     void beginTransaction(PF_GPIO_T CSpin, uintmax_t settings) override;
@@ -20,7 +20,6 @@ public:
     void setBitOrder(PF_GPIO_T csPin, uintmax_t BitOrder) override;
     void setDataMode(PF_GPIO_T _pin, uint8_t Mode) override;
     void setClockDivider(PF_GPIO_T _pin, uint8_t Mode) override;
-    
 };
 
 extern Platform_HardwareSPI SPI;
