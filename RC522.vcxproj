@@ -139,7 +139,24 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="Arduino.cpp" />
+    <ClCompile Include="HardwareSerial.cpp" />
+    <ClCompile Include="Platform.cpp" />
+    <ClCompile Include="Platform_HardwareSerial.cpp" />
+    <ClCompile Include="Platform_HardwareSPI.cpp" />
+    <ClCompile Include="Print.cpp" />
     <ClCompile Include="RC522.cpp" />
+    <ClCompile Include="SPI.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Arduino.hpp" />
+    <ClInclude Include="Binary.hpp" />
+    <ClInclude Include="HardwareSerial.hpp" />
+    <ClInclude Include="Platform.hpp" />
+    <ClInclude Include="Platform_HardwareSerial.h" />
+    <ClInclude Include="Platform_HardwareSPI.h" />
+    <ClInclude Include="Print.hpp" />
+    <ClInclude Include="SPI.hpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
