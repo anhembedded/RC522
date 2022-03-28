@@ -1,0 +1,3 @@
+C:/Project/RC522/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+C:/Project/RC522/cmake-build-debug/CMakeFiles/RC522.dir
+C:/Project/RC522/cmake-build-debug/CMakeFiles/edit_cache.dir
